@@ -146,7 +146,15 @@ console.log (isEqual("blue", "blue"));
  * If the strings are not equal, the function will return the message "Opposites do attract." Otherwise, return the message: "Cause it's like you're my mirror." 
  * Console.log your result.
 */
-
+function notEqual(first, second){
+  if (first !== second){
+    return "opposites do attract."
+  }else{ 
+    return "cause its like youre my mirror."
+  }
+}
+console.log (notEqual("on", "off"));
+console.log (notEqual("bye", "bye"));
 
 /*
  * #8
