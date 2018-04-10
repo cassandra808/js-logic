@@ -302,7 +302,19 @@ console.log (moneyTrain(423))
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
+var budget = 88
+var doughnutPrice = 3
+var doughnutBought = 0
 
+function buyDoughnut(){
+  if (budget >= doughnutPrice){
+      budget -= doughnutPrice;
+      doughnutBought ++;
+  }
+}
+buyDoughnut()
+console.log ("budget", budget)
+console.log ("bought", doughnutBought)
 
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
